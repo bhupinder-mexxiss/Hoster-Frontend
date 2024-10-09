@@ -1,0 +1,7 @@
+.PricingPlans .box:hover .savePer {
+    color: #6EE8FC !important;
+}
+
+.PricingPlans .box:hover button {
+    background: linear-gradient(161.42deg, #6EE8FC 5.47%, #6AE2FB 21.27%, #5ED1F7 42.01%, #4BB5F1 65.72%, #308EE8 91.39%, #267FE5 100.28%);
+}

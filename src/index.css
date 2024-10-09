@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap'); */
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/font/Inter28pt-Bold.eot');
+    src: url('./assets/font/Inter28pt-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./assets/font/Inter28pt-Bold.woff2') format('woff2'),
+        url('./assets/font/Inter28pt-Bold.woff') format('woff'),
+        url('./assets/font/Inter28pt-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/font/Inter28pt-Medium.eot');
+    src: url('./assets/font/Inter28pt-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./assets/font/Inter28pt-Medium.woff2') format('woff2'),
+        url('./assets/font/Inter28pt-Medium.woff') format('woff'),
+        url('./assets/font/Inter28pt-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/font/Inter28pt-Light.eot');
+    src: url('./assets/font/Inter28pt-Light.eot?#iefix') format('embedded-opentype'),
+        url('./assets/font/Inter28pt-Light.woff2') format('woff2'),
+        url('./assets/font/Inter28pt-Light.woff') format('woff'),
+        url('./assets/font/Inter28pt-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/font/Inter28pt-SemiBold.eot');
+    src: url('./assets/font/Inter28pt-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('./assets/font/Inter28pt-SemiBold.woff2') format('woff2'),
+        url('./assets/font/Inter28pt-SemiBold.woff') format('woff'),
+        url('./assets/font/Inter28pt-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/font/Inter28pt-Regular.eot');
+    src: url('./assets/font/Inter28pt-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./assets/font/Inter28pt-Regular.woff2') format('woff2'),
+        url('./assets/font/Inter28pt-Regular.woff') format('woff'),
+        url('./assets/font/Inter28pt-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+.bg_Gradient {
+    background: linear-gradient(90deg, rgba(3, 9, 29, 0.95) 30.47%, #132059 140.64%)
+        /* bg-[linear-gradient(130deg,_rgba(3,_9,_29,_0.95)_30.47%,_#132059_140.64%)] */
+        /* background: linear-gradient(134.41deg, rgba(3, 9, 29, 0.95) 13.47%, #132059 56.64%, #03091D 90.93%); */
+}
+
+body {
+    font-family: "Inter";
+}
+
+.container {
+    max-width: 1650px;
+    padding: 0 24px;
+}
+
+.blueFilter {
+    filter: invert(30%) sepia(66%) saturate(2517%) hue-rotate(170deg) brightness(40%) contrast(80%);
+}
+
+a:hover .pinkFilter {
+    filter: invert(50%) sepia(10%) saturate(5917%) hue-rotate(294deg) brightness(90%) contrast(124%);
+}
+
+.cstmshadow {
+    box-shadow: 0px 10px 15px 0px #CF088C26;
+}
+
+.slick-slider {
+    padding-bottom: 30px;
+}
+
+.slick-dots {
+    bottom: 0px;
+}
+
+.slick-dots li {
+    margin: 0;
+}
+
+.slick-dots li button:before {
+    color: white;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: #d40890a8;
+    font-size: 10px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 16px;
+    }
+}
