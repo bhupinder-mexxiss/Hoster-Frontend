@@ -4,7 +4,7 @@ const sizes = {
   sm: "text-[16px]",
   lg: "text-[18px]",
   xl: "text-[20px]",
-  xxl: "lg:text-[24px] text-xl",
+  xxl: "lg:text-[24px] sm:text-xl text-lg",
   "3xl": "lg:text-[32px] md:text-3xl sm:text-[26px] xs:text-[22px] text-xl",
   "4xl": "xl:text-[40px] lg:text-[36px] md:text-[34px] sm:text-[32px] xs:text-[28px] text-2xl leading-[32px] xs:leading-[36px] md:leading-[38px] lg:leading-[48px]",
   "5xl":

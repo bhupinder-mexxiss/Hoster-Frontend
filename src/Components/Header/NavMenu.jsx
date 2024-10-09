@@ -200,7 +200,7 @@ const NavMenu = () => {
                     </Link>
                   </li>
                   <li className="text-nowrap hover:text-[#f92cde] duration-200">
-                    <Link
+                    <Link to="whois"
                       className="flex items-center gap-3.5"
                       onClick={handleLinkClick}
                     >
@@ -282,7 +282,7 @@ const NavMenu = () => {
                     </Link>
                   </li>
                   <li className="text-nowrap hover:text-[#f92cde] duration-200">
-                    <Link
+                    <Link to="websites"
                       className="flex items-center gap-3.5"
                       onClick={handleLinkClick}
                     >

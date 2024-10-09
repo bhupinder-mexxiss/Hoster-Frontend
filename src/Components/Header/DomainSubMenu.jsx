@@ -136,7 +136,7 @@ const DomainSubMenu = ({ closeMenu }) => {
               </Link>
             </li>
             <li className="text-nowrap hover:text-[#f92cde] duration-200">
-              <Link className="flex items-center gap-3.5" onClick={closeMenu}>
+              <Link to="whois" className="flex items-center gap-3.5" onClick={closeMenu}>
                 <img src={mobileIcon8} alt="" className="w-6" /> Find a Domain
                 Owner (WHOIS)
               </Link>

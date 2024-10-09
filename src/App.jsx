@@ -19,6 +19,8 @@ import DomainNameGenerator from "./Pages/DomainNameGenerator/DomainNameGenerator
 import DomainSearchPage from "./Pages/DomainSearchPage/DomainSearchPage.jsx";
 import DomainProtection from "./Pages/DomainProtection/DomainProtection.jsx";
 import PremiumDNS from "./Pages/PremiumDNS/PremiumDNS.jsx";
+import WHOISDomain from "./Pages/WHOISDomain/WHOISDomain.jsx";
+import AllWebsiteOption from "./Pages/AllWebsiteOption/AllWebsiteOption.jsx";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -89,6 +91,14 @@ const App = () => {
         {
           path: "/premium-dns",
           element: <PremiumDNS />,
+        },
+        {
+          path: "/whois",
+          element: <WHOISDomain/>,
+        },
+        {
+          path: "/websites",
+          element: <AllWebsiteOption/>,
         },
       ],
     },

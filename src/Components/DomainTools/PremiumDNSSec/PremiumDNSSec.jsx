@@ -131,8 +131,51 @@ const PremiumDNSSec = () => {
               </p>
             </div>
             <div className="order-1 lg:order-2">
-              <div className="img_Outer max-w-[400px] lg:max-w-[600px] relative ml-auto">
+              <div className="img_Outer max-w-[400px] lg:max-w-[600px] relative lg:ml-auto">
                 <img src={image4} className="relative rounded-3xl w-full" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* The importance of managing your DNS. */}
+      <div className="bg-[#F1F1F11A] py-14 md:py-16 lg:py-20 mt-14 md:mt-16 lg:mt-20">
+        <div className="container mx-auto">
+          <Heading
+            as="h4"
+            children="The importance of managing your DNS."
+            size="4xl"
+            className="capitalize text-center"
+            fontWeight="700"
+          />
+          <p className="text-white max-w-[950px] mx-auto text-center lg:text-lg mt-5 ">
+            It's during this DNS address "look up" where you potentially
+            experience problems in performance, accessibility and security; from
+            your domain not being found to hackers redirecting visitors to a
+            fake website.
+          </p>
+          <div className="mt-10 md:mt-14">
+            <div className="grid md:grid-cols-2 gap-10 lg:gap-16">
+              <div className="text-white">
+                <p className="font-medium mb-5 text-2xl">
+                  Slow DNS response can cause "website not found" errors.
+                </p>
+                <p className="mb-2">
+                  This can happen when the DNS server is slow in responding and
+                  can't determine what site content to give you. If it takes too
+                  long, it can just "time out" and give an error message.
+                </p>
+              </div>
+              <div className="text-white">
+                <p className="font-medium mb-5 text-2xl">
+                  Keep hackers from redirecting your visitors to a fake site.
+                </p>
+                <p className="mb-2">
+                  Hackers can give the browser a different IP address that
+                  redirects to a fake website that looks like yours. Once there,
+                  the hacker can access any information your customer provides.
+                </p>
               </div>
             </div>
           </div>
@@ -169,7 +212,7 @@ const PremiumDNSSec = () => {
       </div>
 
       {/* Solve top DNS issues to improve security */}
-      <div className="bg-[#F1F1F11A] py-14 md:py-16 lg:py-20">
+      <div className="bg-[#F1F1F11A] py-14 md:py-16 lg:py-20 mt-14 md:mt-16 lg:mt-20">
         <div className="container mx-auto">
           <Heading
             as="h4"
@@ -186,12 +229,55 @@ const PremiumDNSSec = () => {
               <div className="text-white">
                 <p className="font-medium mb-5 text-2xl">Better security.</p>
                 <p className="mb-2">
-                <span className="font-semibold">Problem:</span> Hackers steal credit card numbers and other sensitive
-                  information through "eavesdropping." Hackers sit on the DNS
-                  server and "listen in" on messages, logins and passwords as
-                  customers access your site.
+                  <span className="font-semibold">Problem:</span> Hackers steal
+                  credit card numbers and other sensitive information through
+                  "eavesdropping." Hackers sit on the DNS server and "listen in"
+                  on messages, logins and passwords as customers access your
+                  site.
                 </p>
-                <p><span className="font-semibold">Solution:</span> By verifying the visitor is at the intended website, Premium DNS helps shut eavesdropping down.</p>
+                <p>
+                  <span className="font-semibold">Solution:</span> By verifying
+                  the visitor is at the intended website, Premium DNS helps shut
+                  eavesdropping down.
+                </p>
+              </div>
+              <div className="text-white">
+                <p className="font-medium mb-5 text-2xl">
+                  Greater reliability.
+                </p>
+                <p className="mb-2">
+                  <span className="font-semibold">Problem: </span>"Website not
+                  found" errors cause you to lose visitors and sales. At best,
+                  they think you're unprofessional; at worst, they think you
+                  don't exist.
+                </p>
+                <p>
+                  <span className="font-semibold">Solution: </span>Premium DNS
+                  makes sure your site is always available by using the Anycast
+                  global network, which provides multiple layers of redundancy.
+                  Your DNS records are distributed on servers throughout the
+                  U.S., Europe and Asia. So, if one server should go down, your
+                  website will still be online.
+                </p>
+              </div>
+              <div className="text-white">
+                <p className="font-medium mb-5 text-2xl">Faster performance.</p>
+                <p className="mb-2">
+                  <span className="font-semibold">Problem: </span>Visitors
+                  experience delays or "time outs" trying to reach your site.
+                  Customers who live far away may experience a delay in reaching
+                  your site or even get a "website not found" error message. The
+                  more cable between your server and your customer's computer,
+                  the longer it takes for them to reach your site. don't exist.
+                </p>
+                <p>
+                  <span className="font-semibold">Solution: </span>The Premium
+                  DNS infrastructure offers improved security and faster
+                  resolution than the standard infrastructure. And since your
+                  information is distributed across DNS servers around the
+                  world, customers connect to the closest server location for a
+                  quicker response.
+                </p>
               </div>
             </div>
           </div>
