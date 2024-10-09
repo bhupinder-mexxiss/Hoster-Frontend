@@ -70,7 +70,7 @@ const Header = () => {
                 label="Login"
                 className="py-2.5 px-5 md:min-w-[90px]"
                 as={Link}
-                to="/auth"
+                to="/"
               />
             </div>
           </nav>
