@@ -9,17 +9,17 @@ const AllWebsiteOptionBanner = () => {
         <div className="py-10">
           <div className="text-center mx-auto max-w-[780px]">
             <p className="mb-6 sm:text-lg text-[#CFD0D4]">
-              WCreate a Website
+              Create a Website
             </p>
             <Heading
               as="h2"
               children="Everything you need to thrive online."
               size="5xl"
-              className="capitalize pr-10"
+              className="capitalize"
               fontWeight="700"
             />
           </div>
-          <div className="mt-6 lg:mt-8 text-center flex items-center justify-center gap-3">
+          <div className="mt-8 lg:mt-12 text-center flex items-center justify-center gap-3">
             <CustomButton label="Websites" height="50" className="px-12 lg:min-w-[200px]" />
             <CustomButton label="Online Stores" height="50" className="px-12 lg:min-w-[200px]" />
             </div>

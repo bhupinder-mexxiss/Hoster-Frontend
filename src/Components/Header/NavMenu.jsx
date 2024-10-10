@@ -264,7 +264,7 @@ const NavMenu = () => {
                 <p className="text-[#CFD0D4] mb-3 opacity-70">Websites</p>
                 <ul className="text-sm font-medium text-white flex flex-col gap-5 w-max">
                   <li className="text-nowrap hover:text-[#f92cde] duration-200">
-                    <Link
+                    <Link to="/website-builder"
                       className="flex items-center gap-3.5"
                       onClick={handleLinkClick}
                     >

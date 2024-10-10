@@ -21,6 +21,7 @@ import DomainProtection from "./Pages/DomainProtection/DomainProtection.jsx";
 import PremiumDNS from "./Pages/PremiumDNS/PremiumDNS.jsx";
 import WHOISDomain from "./Pages/WHOISDomain/WHOISDomain.jsx";
 import AllWebsiteOption from "./Pages/AllWebsiteOption/AllWebsiteOption.jsx";
+import WebsiteBuilder from "./Pages/WebsiteBuilder/WebsiteBuilder.jsx";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -99,6 +100,10 @@ const App = () => {
         {
           path: "/websites",
           element: <AllWebsiteOption/>,
+        },
+        {
+          path: "/website-builder",
+          element: <WebsiteBuilder/>,
         },
       ],
     },

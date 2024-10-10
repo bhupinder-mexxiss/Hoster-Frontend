@@ -8,6 +8,7 @@ const AllWebsiteOption = () => {
     <div>
       <AllWebsiteOptionBanner/>
       <AllWebsiteOptionSec/>
+      <PremiumBuilderFeatures/>
       <DomainFAQs/>
     </div>
   )

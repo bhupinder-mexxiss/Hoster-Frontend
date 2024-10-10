@@ -15,7 +15,7 @@ const WebsiteSubMenu = ({closeMenu}) => {
           <p className="text-[#070E2A] opacity-80  mb-3">Websites</p>
           <ul className="text-sm font-medium text-[#070E2A] flex flex-col gap-3">
             <li className="text-nowrap hover:text-[#f92cde] duration-200">
-              <Link className="flex items-center gap-3.5" onClick={closeMenu}>
+              <Link to="/website-builder" className="flex items-center gap-3.5" onClick={closeMenu}>
                 <img src={mobileIcon10} alt="" className="w-6" /> Website
                 Builder
               </Link>
@@ -26,7 +26,7 @@ const WebsiteSubMenu = ({closeMenu}) => {
               </Link>
             </li>
             <li className="text-nowrap hover:text-[#f92cde] duration-200">
-              <Link className="flex items-center gap-3.5" onClick={closeMenu}>
+              <Link to="/websites" className="flex items-center gap-3.5" onClick={closeMenu}>
                 <img src={mobileIcon13} alt="" className="w-6" /> All Website
                 Options
               </Link>

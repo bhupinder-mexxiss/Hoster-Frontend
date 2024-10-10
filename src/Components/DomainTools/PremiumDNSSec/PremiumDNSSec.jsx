@@ -213,17 +213,21 @@ const PremiumDNSSec = () => {
 
       {/* Solve top DNS issues to improve security */}
       <div className="bg-[#F1F1F11A] py-14 md:py-16 lg:py-20 mt-14 md:mt-16 lg:mt-20">
-        <div className="container mx-auto">
-          <Heading
-            as="h4"
-            children="We know how important your domain is."
-            size="4xl"
-            className="capitalize text-center"
-            fontWeight="700"
-          />
-          <p className="text-white max-w-[1440px] mx-auto text-center lg:text-lg mt-5 ">
-            We know how important your domain is.
-          </p>
+        <div className="container mx-auto ">
+          <div className="max-w-[1070px] mx-auto">
+            <Heading
+              as="h4"
+              children="Solve top DNS issues to improve security, reliability and performance."
+              size="4xl"
+              className="capitalize text-center"
+              fontWeight="700"
+            />
+            <p className="text-white text-center lg:text-lg mt-5 ">
+              Premium DNS makes it easy to resolve common issues that prevent
+              people from accessing your site. It improves your overall
+              performance, availability and security.
+            </p>
+          </div>
           <div className="mt-10 md:mt-14">
             <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-10 text-center">
               <div className="text-white">

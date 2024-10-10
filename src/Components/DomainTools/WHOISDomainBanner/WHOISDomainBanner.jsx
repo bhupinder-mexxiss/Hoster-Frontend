@@ -17,7 +17,7 @@ const WHOISDomainBanner = () => {
               as="h2"
               children="Find out who owns a website."
               size="5xl"
-              className="capitalize pr-10"
+              className="capitalize"
               fontWeight="700"
             />
           </div>
